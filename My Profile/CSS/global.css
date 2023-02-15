@@ -1,0 +1,26 @@
+/* Global CSS Changes */
+body{
+    background-color: aquamarine;
+}
+
+
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img{
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+/* Class CSS Changes */
+.profile{
+   border: solid;
+   /* background-color: rgb(139, 0, 0);  */
+}
+/* ID CSS Changes*/
+#main-container{
+    background: radial-gradient(#e66465, #9198e5);
+}
