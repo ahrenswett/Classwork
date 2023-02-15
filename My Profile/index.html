@@ -1,42 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All About Ahren</title>
-</head>
-<body>
-    <div id="main-container">
-        <div class="profile">
-            <img src="imgs/meCoffee.jpeg" width="250" alt="Ahren drinking espresso">
-            
-            <div class="profile-text">
-                <h1>All About Ahren</h1>
-                <p>
-                    Hi I am Ahren, I love creating building dreaming and having tons of fun. When im not Coding you may find me Mountian Biking, Climbing, Snowboarding or Playing with my Beloved dog Gria. 
-                </p>
-            </div>
-            
-            <!-- Lists about my dreams and current finished projects -->
-            <div class="lists">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>All About Ahren</title>
+    </head>
 
-                <!-- List about what am currently working on -->
-                <ul id="currentProjects">
-                    <li>Shabin in the woods</li>
-                    <li>Tesla BMS Android App</li>
-                    <li>Pillminder Android App</li>
-                </ul>
+    <style>
 
-                <!-- Ordered list about my dreams -->
-                <ol id="myDreamList">
-                    <li>Turn my shabin into a money making cabin</li>
-                    <li>Create a highly used mobile application</li>
-                    <li>Live off 20k/month residual income </li>
-                </ol>
+        /* Global CSS Changes*/
+        body{
+            background-color: aquamarine;
+        }
 
+
+        h1{
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        img{
+            display: block;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;    
+        }
+        /* Class CSS Changes*/
+        .profile{
+           border: solid;
+           /* background-color: rgb(139, 0, 0);  */
+        }
+        /* ID CSS Changes*/
+        #main-container{
+            background: radial-gradient(#e66465, #9198e5);
+        }
+
+
+    </style>
+
+    <body>
+        <div id="main-container">
+            <div class="profile">
+                <img src="imgs/meCoffee.jpeg" width="250" alt="Ahren drinking espresso">            
+                <div class="profile-text">
+                    <h1>All About Ahren</h1>
+                    <p>
+                        Hi I am Ahren, I love creating building dreaming and having tons of fun. When im not Coding you may find me Mountian Biking, Climbing, Snowboarding or Playing with my Beloved dog Gria. 
+                    </p>
+                </div>
+                
+                <!-- Lists about my dreams and current finished projects -->
+                <div class="lists">
+
+                    <!-- List about what am currently working on -->
+                    <ul id="currentProjects">
+                        <li>Shabin in the woods</li>
+                        <li>Tesla BMS Android App</li>
+                        <li>Pillminder Android App</li>
+                    </ul>
+
+                    <!-- Ordered list about my dreams -->
+                    <ol id="myDreamList">
+                        <li>Turn my shabin into a money making cabin</li>
+                        <li>Create a highly used mobile application</li>
+                    </ol>
+
+                </div>
             </div>
         </div>
-    </div>
-</body>
+    </body>
 </html>
